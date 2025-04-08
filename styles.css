@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'customeFonts';
+    src: url('fonts.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+body {
+ font-family: customeFonts;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    background: #0edb97;
+    text-align: center;
+    color: #0A2F2E;
+    line-height: 1.6;
+}
+
+
+    img{
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #fff;
+    }
+
+    footer{
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        section#whoami {
+            margin: 2rem 0;
+            padding: 1rem;
+            background-color: #111;
+            border-top: 1px solid #333;
+        }
+        section#whoami h2 {
+            font-size: 15px;
+            margin-bottom: 1rem;
+        }
+        section#whoami p {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto 1rem auto;
+        }
+        section#whoami ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1rem;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section#whoami li {
+            margin-bottom: 0.5rem;
+        }
+    }
